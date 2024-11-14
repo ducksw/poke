@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poke</title>
+<style>
+body {
+  font-family: monospace;
+}
+#res2 {
+  width: 96px;
+  height: 96px;
+}
+h1 {
+  font-size: 3rem;
+}
+img {
+  border: 1px dotted black;
+  max-width: 100%;
+  width: 100px;
+}
+input {
+  font-size: 20px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>BUSCA TU POKEMÓN</h1>
+
+<div class="box">
+<input type="text" id="input" value="Pikachu">
+<button id="btn" onclick="poke()">go!</button>
+</div>
+
+<div id="res"></div>
+<div id="res2"></div>
+</center>
+
+</body>
+
+<script src="main.js"></script>
+</html>
